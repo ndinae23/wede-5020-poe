@@ -25,7 +25,7 @@ The project runs over four weeks, starting with Week 1 focused on research and p
 
 ## Sitemap
 
-![Website Sitemap](img/mysitemap.png) <br> (The one here is only an example, include your own site map)
+![Website Sitemap](https://github.com/ndinae23/wede-5020-poe/blob/e3fb90ba423a60cf3fcbbac1a3d58f8a55df31c2/SiteMap.png) <br>
 
 ## References
 
