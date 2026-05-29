@@ -52,3 +52,4 @@ Example: 1.0.0
 - MAJOR → Big updates or redesigns  
 - MINOR → New features added  
 - PATCH → Bug fixes and small improvements
+  
