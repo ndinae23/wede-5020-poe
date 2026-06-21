@@ -4,52 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Miamis catering Services</title>
-
-    <link rel="stylesheet" href="contact.css">
+    <title>Contact Us - Miamis Catering Services</title>
+    <link rel="stylesheet" href="css/contact.css" />
 </head>
 
 <body>
 
-</body>
-</header>
-<h1>Enquiry</h1>
-<header>
+    <!-- Header -->
+    <header>
+        <h1>Contact</h1>
+    </header>
 
-    <!--main content-->
+    <!-- Main content -->
     <main>
         <h2>Our Location</h2>
-        <p><strong>Centurion Branch:</strong></p>samrand road 2301
+        <p><strong>Centurion Branch:</strong> Samrand Road 2301</p>
 
-        <h3>send us message</h3>
-        <!--Form for Visitors to contact the organisation-->
+        <h3>Send us a message</h3>
+
+        <!-- Contact Form -->
         <form>
-            <!--Name input Field"-->
-            <label>Full Name</label>
-            <input type="text"name="name"
-            required><br><br>
+            <!-- Name input -->
+            <label for="name">Full Name</label><br>
+            <input type="text" id="name" name="name" required><br><br>
 
-            <!--Email input field-->
-            <label>Email Address:</label><br>
-            <input type="email"
-            name="email" required><br><br>
-            <!--Message text area-->
-            <label>Your Messages: </label>
+            <!-- Email input -->
+            <label for="email">Email Address</label><br>
+            <input type="email" id="email" name="email" required><br><br>
 
-            <textarea name="message"
-            rows="5" cols="40" required></textarea><br><br>
+            <!-- Message -->
+            <label for="message">Your Message</label><br>
+            <textarea id="message" name="message" rows="5" cols="40" required></textarea><br><br>
 
-            <!--Submit button-->
+            <!-- Submit button -->
             <button type="submit">Send Message</button>
+        </form><form id="contactForm">
+            <form id="contactForm">
+            
+                <h2>Contact Us</h2>
+            
+                <input type="text" id="name" placeholder="Full Name" required>
+            
+                <input type="email" id="email" placeholder="Email Address" required>
+            
+                <select id="subject" required>
+                    <option value="">Select Subject</option>
+                    <option value="booking">Booking</option>
+                    <option value="general">General Enquiry</option>
+                </select>
+            
+                <textarea id="message" placeholder="Your message" required></textarea>
+            
+                <button type="submit">Send Message</button>
+            
+                <p id="error"></p>
+            
             </form>
-            </main>
+        
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+        
+            <textarea id="message" placeholder="Your message" required></textarea>
+        
+            <button type="submit">Send</button>
+        
+        </form>
+        
+        <p id="error"></p>
+    </main>
 
-<!--footer section-->
-<footer>
-    <p>&copy ,2026 Miamis Catering Services</p>
-    <p>Email:info@Miamiscateringservice.co.za | phone:  012 556 7899 </p>
-</footer>
+    <!-- Footer -->
+    <footer>
+        <p>&copy, 2026 Miamis Catering Services</p>
+        <p>Email: info@Miamiscateringservice.co.za | Phone: 012 556 7899</p>
+    </footer>
 
-<body>
-    <html>
+    <script src="js/script. js"></script>
+
+</body>
+
+</html>
     
